@@ -8,6 +8,7 @@ desc: >-
 short_desc: 升级杀不死的核心补丁引擎
 version: 1.3.0
 author: YG
+repo: https://github.com/949829160/AstrBot-Purge
 license: AGPL-3.0-or-later
 astrbot_version: ">=4.29.4"
 tags:
