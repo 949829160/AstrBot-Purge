@@ -1,0 +1,27 @@
+{
+  "enabled": {
+    "description": "注入帧总开关（与 astrbot-purge/enabled.txt 同时为开才生效）",
+    "type": "bool",
+    "default": true
+  },
+  "clean_refusal_paragraphs": {
+    "description": "剥掉输出里的拒答段落（只删短句拒答段，正常正文不受影响）",
+    "type": "bool",
+    "default": true
+  },
+  "strip_tool_scaffolding": {
+    "description": "把被当正文吐出来的工具调用 JSON 换成里面的实际内容",
+    "type": "bool",
+    "default": true
+  },
+  "deai": {
+    "description": "去 AI 腔：口播前奏、勾选清单、标签泄漏、段落复读",
+    "type": "bool",
+    "default": true
+  },
+  "debug_log": {
+    "description": "把每次清洗的前后长度打到日志，便于排查误删",
+    "type": "bool",
+    "default": false
+  }
+}

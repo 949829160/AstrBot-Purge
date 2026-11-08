@@ -1,0 +1,24 @@
+AstrBot-Purge
+Copyright (C) 2026 YG
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+details.
+
+You should have received a copy of the GNU Affero General Public License along
+with this program. If not, see <https://www.gnu.org/licenses/>.
+
+The full license text is in LICENSE (GNU Affero General Public License v3.0).
+
+Third-party notice
+------------------
+engine/repatch.py contains patch definitions whose `old` strings quote source
+code from AstrBot (https://github.com/AstrBotDevs/AstrBot), and snapshot/files/
+contains modified copies of AstrBot core modules. AstrBot is licensed under
+AGPL-3.0-or-later; those portions remain under the same license.

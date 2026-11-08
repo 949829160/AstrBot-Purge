@@ -1,0 +1,23 @@
+name: astrbot_purge
+display_name: AstrBot-Purge
+desc: >-
+  AstrBot 核心的持久化补丁引擎。58 条锚点补丁 + 整文件快照 + 后补层，
+  启动时按版本自动重放；带版本闸门、进程级生效检查、备份回滚与账本。
+  升级不丢补丁，改坏可一键退回；注入帧分段拼装，命中哪段拼哪段，
+  先剥掉核心层再重拼，避免多层叠加。
+short_desc: 升级杀不死的核心补丁引擎
+version: 1.3.0
+author: YG
+license: AGPL-3.0-or-later
+astrbot_version: ">=4.29.4"
+tags:
+  - 核心补丁
+  - 持久化
+  - 热修复
+  - 提示词注入
+  - 运行时自愈
+keywords:
+  - AstrBot-Purge
+  - patcher
+  - hotfix
+  - prompt

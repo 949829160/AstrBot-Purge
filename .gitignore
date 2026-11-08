@@ -1,0 +1,24 @@
+# runtime state
+/tree/
+/baseline/
+/backup/
+/snap/
+/patched/
+/state.json
+/scene_state.json
+/drift.log
+/drift_state.json
+/enabled.txt
+
+# build artefacts
+__pycache__/
+*.pyc
+*.bak
+*.bak-*
+*.orig
+*.rej
+
+# local overrides
+prompts.local.txt
+tests/prompts.local.txt
+.env

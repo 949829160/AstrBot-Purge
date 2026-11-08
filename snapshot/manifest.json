@@ -1,0 +1,116 @@
+{
+  "version": "4.29.4",
+  "built_at": "2026-11-08T22:56:58",
+  "files": {
+    "core/agent/context/config.py": {
+      "dst_sha": "2a59ede14675d7f02ca15ffbf850f44d5d1492bfdb1af9db469e9c8b5f0051d2",
+      "dst_size": 2006,
+      "base_sha": "feaede3cc0aecad10c2ac3c9456d91d9eedca6f12adeafed66eec3ca4014bd4a"
+    },
+    "core/agent/context/manager.py": {
+      "dst_sha": "91c66f0bdbe4363d34b07b3a3f1b3cf2b43f3dd3c36d61c1e6ef90a19ccea9b5",
+      "dst_size": 6605,
+      "base_sha": "0118a735ae50db15915d04bb29bf530612401cf2788c2bd3b541894d28b90545"
+    },
+    "core/agent/runners/tool_loop_agent_runner.py": {
+      "dst_sha": "1659bdc22ae55b81a2ddc601f54c6e29df843bce2aab8f908344f329ecb08c21",
+      "dst_size": 77309,
+      "base_sha": "ac20138ada8ce83bc88ffec72e40ef4d5ac174a3695a27ae84ad2d9912537645"
+    },
+    "core/astr_agent_tool_exec.py": {
+      "dst_sha": "5b7de6781ef6bd9a77c1511384d0291e685c63164c173e3a0b392ddbe16b7c70",
+      "dst_size": 40086,
+      "base_sha": "4af653ba8abea62958124d10dd2cf56e1f14d1098ff1583865660d378bf51d04"
+    },
+    "core/astr_main_agent.py": {
+      "dst_sha": "6b417afdcf5959829ead657f2dbef47ed008b97f133ca2f036beb81974adf1f2",
+      "dst_size": 96524,
+      "base_sha": "081f2fda0924fdca04cd4eaffec22a50b158507a958406b55e2d89c64011245f"
+    },
+    "core/astr_main_agent_resources.py": {
+      "dst_sha": "9d2493aef09a94b325432d32f58eb8dd56e971d8b21e2cbbd130303de819cc34",
+      "dst_size": 7914,
+      "base_sha": "3ec82b8ed3a599544ad6c9dbfc1c9dad211ef593bceb9a89162fe4e647a08022"
+    },
+    "core/computer/booters/local.py": {
+      "dst_sha": "5483b2b279418b533b9f406aecbc7dd0c8d4e4d6c032359f686462f7c3d01992",
+      "dst_size": 55226,
+      "base_sha": "8e983c6670f391d7e0aff702b8d4bd52deb6e3225963c368b0cc777e339caf7f"
+    },
+    "core/cron/manager.py": {
+      "dst_sha": "92b17bf4c5b6b8b3cc9d19a0aaa1bbfd1cfe49f7789d958d6ec7c06991908cbe",
+      "dst_size": 26059,
+      "base_sha": "a82f206c78d844e796426f36901887138d32f83fdf5c0c84c9452feba26a97a2"
+    },
+    "core/db/__init__.py": {
+      "dst_sha": "24572e47f58f3d5c27f3d2df9be4fe4f0a465dba13fb6f49a3939961208854cb",
+      "dst_size": 32902,
+      "base_sha": "ea1350a0cdaac3f880a2b286f2d1d615b81e45a0ff832220feaf4dd940f2e596"
+    },
+    "core/event_bus.py": {
+      "dst_sha": "8f65d0cbf7f964910f7a37772517a09281f389a4959899d0940d9dc1507fb9d9",
+      "dst_size": 7707,
+      "base_sha": "0eef774bd0097943e16a91c217a1b6692aad9672bc3be05ebca8b03e50be63cc"
+    },
+    "core/persona_mgr.py": {
+      "dst_sha": "11429e7b0252631af2db2ed28be7afe1fa4401b31fa4e8cc1481c81150cc93c2",
+      "dst_size": 22702,
+      "base_sha": "78f31f5c5c8b580fa2a4f4c888c64ea451c6d19880f607c2ae9a8707a9571cb1"
+    },
+    "core/pipeline/content_safety_check/stage.py": {
+      "dst_sha": "3fa796c5ac93f537e5e43abfaa7856f8ffd573227f288b9779b49f172ceab660",
+      "dst_size": 2131,
+      "base_sha": "b975ab682abba7c34546ccd4ae851b4b18db3e18893ee375e9d398373999af67"
+    },
+    "core/pipeline/process_stage/method/agent_sub_stages/internal.py": {
+      "dst_sha": "47b53f8322186c9ab2e022e86afa74dc679ae1b29bf1fe93a6c6c06907c152f0",
+      "dst_size": 30568,
+      "base_sha": "dbe18dec7382d788432e089b513c009dda038a9fc0225ca1fc1e2b2b8c8bd8dd"
+    },
+    "core/pipeline/process_stage/stage.py": {
+      "dst_sha": "602c2cfd7de6a914ab0d849a6dff8a0223d8fbeb416dca6752fa1c2dd8760636",
+      "dst_size": 3265,
+      "base_sha": "58edd5ac476fe6841fc759c881293ae2a5bc198dec3ef4f3a1873417c40d2fbf"
+    },
+    "core/pipeline/result_decorate/stage.py": {
+      "dst_sha": "3fc311c0dab5ccd3475044cb72d87b6094247c743022c9a033b658778c826033",
+      "dst_size": 48717,
+      "base_sha": "24acff446a409640b592129bb047111eac4d23b6c9383d96664efbd0525231f6"
+    },
+    "core/provider/sources/openai_source.py": {
+      "dst_sha": "816f23ad9cf44226e01ee73d15c6b0381cade9c47ca2c55bd83f0734e7c57a4e",
+      "dst_size": 77752,
+      "base_sha": "73c4f3675d5cbb1d448a13c8b43a12fe251aafdd60858066d32bae563a2d96f1"
+    },
+    "core/star/context.py": {
+      "dst_sha": "0dac6f09086d55a7f165c314c8e75f9a9605eca98f3fd1b8cae1d1e81fc71b9c",
+      "dst_size": 38115,
+      "base_sha": "314e7c1bd8e5bc86b6d15ad450866a2e7828cd4e51bb267670cb4642431fac2d"
+    },
+    "core/tools/computer_tools/fs.py": {
+      "dst_sha": "9554c81743a62f6ff89408f9432a3aa0cf0237577ecb2d7224257ddd912f9462",
+      "dst_size": 44183,
+      "base_sha": "3b178e01c2392fd736b609cebc7d002a45240ecb1c73a285d09fcb4cfd8d92b5"
+    },
+    "core/tools/computer_tools/python.py": {
+      "dst_sha": "64440a3acace9dab279821f5acc714fff858ead231ff53034dfe0cd4fa87cf76",
+      "dst_size": 12364,
+      "base_sha": "413563165c3e9a10f3d55ec5cc491e7f61e184f5d2073bf783ad20f1e40a0488"
+    },
+    "core/tools/computer_tools/shell.py": {
+      "dst_sha": "4edd2a7f70291fdc1aa147504370d7cfb589f81074ed397065134ffdac24b1b6",
+      "dst_size": 26584,
+      "base_sha": "d4981b4e15a0912746315d5d2e254ccad082f922845da0a68ee85caeb52c8e28"
+    },
+    "core/tools/web_search_tools.py": {
+      "dst_sha": "36a833a372f0fa4c87ef821110049fcffc9342e5adeecd73327ded0697849056",
+      "dst_size": 91609,
+      "base_sha": "e35dbd2116ee41c1d08c84aa41bbdb15ed5a364dc434f22543e1c03dbd89d353"
+    },
+    "dashboard/services/chat_service.py": {
+      "dst_sha": "4c43d8f51cd936792073654f71e8e8ec6765690875d9bcf63a856aef0e4977c9",
+      "dst_size": 87242,
+      "base_sha": "523c2292be33d7c6ab9e8b01c788cf137390d704cbd5ae834961807cd71d0699"
+    }
+  }
+}
